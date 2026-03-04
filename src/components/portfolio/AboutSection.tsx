@@ -26,21 +26,21 @@ export default function AboutSection() {
             </div>
 
             <h2 className="text-4xl font-extrabold mb-4 text-foreground">
-              Just a 10th grader{" "}
-              <span className="gradient-text">making things</span> ✨
+              A 10th grader{" "}
+              <span className="gradient-text">making things</span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Hey! I'm Daniel — a 16 year old who builds random things.
+                I'm Daniel — a 16 year old who builds random things.
                 I don't consider myself a traditional coder. I just have ideas, and I figure out how to make them real.
               </p>
               <p>
-                Most of my projects are AI-assisted, and I'm not shy about that. I think knowing how to use the right tools
+                Most of my projects are AI-assisted, and I'm not ashamed about that. I think knowing how to use the right tools
                 is its own skill. I care more about the <span className="text-primary font-semibold">end result looking good and working well</span> than how it got made.
               </p>
               <p>
-                When I'm not on a random project, I'm playing video games, at the gym, or starting a new idea that brings me down a new rabbit hole.
+                When I'm not on a random project, I'm playing video games, at the gym, or finding a new idea.
               </p>
             </div>
 
