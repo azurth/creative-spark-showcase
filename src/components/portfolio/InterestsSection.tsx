@@ -1,12 +1,11 @@
 const interests = [
-  { emoji: "💻", label: "Coding", desc: "Obviously", color: "hsl(35 95% 55%)" },
-  { emoji: "🎮", label: "Gaming", desc: "Too much of it", color: "hsl(280 70% 60%)" },
-  { emoji: "🎵", label: "Music", desc: "Making & listening", color: "hsl(200 80% 55%)" },
-  { emoji: "📚", label: "Reading", desc: "When I'm not coding", color: "hsl(150 60% 50%)" },
-  { emoji: "🤖", label: "AI / ML", desc: "The future is wild", color: "hsl(25 90% 50%)" },
-  { emoji: "🎨", label: "Design", desc: "Making things pretty", color: "hsl(340 80% 60%)" },
-  { emoji: "🌌", label: "Space", desc: "It's just infinite??", color: "hsl(220 70% 60%)" },
-  { emoji: "☕", label: "Coffee", desc: "Only started recently", color: "hsl(30 60% 45%)" },
+  { emoji: "🎮", label: "Gaming", desc: "How I spend my free time", color: "hsl(280 70% 60%)" },
+  { emoji: "🎵", label: "Music", desc: "Always listening in the background", color: "hsl(200 80% 55%)" },
+  { emoji: "📚", label: "Reading", desc: "More than you'd think", color: "hsl(150 60% 50%)" },
+  { emoji: "🤖", label: "AI", desc: "Moves faster than I can follow", color: "hsl(25 90% 50%)" },
+  { emoji: "🎨", label: "Designing", desc: "Can't leave something ugly alone", color: "hsl(340 80% 60%)" },
+  { emoji: "🌌", label: "Random Projects", desc: "One idea always leads to another", color: "hsl(220 70% 60%)" },
+  { emoji: "🏋️", label: "Gym", desc: "Great habit, going strong", color: "hsl(30 60% 45%)" },
 ];
 
 export default function InterestsSection() {
