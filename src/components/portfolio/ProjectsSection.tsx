@@ -34,7 +34,7 @@ export default function ProjectsSection() {
             Things I've <span className="gradient-text">Built</span>
           </h2>
           <p className="text-muted-foreground text-lg mt-4 max-w-xl mx-auto">
-            Random projects I've made over the years. Some are good. Some are not. All were fun.
+            Random projects I've made and decided to update on this website.
           </p>
         </div>
 
