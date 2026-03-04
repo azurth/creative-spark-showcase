@@ -25,7 +25,7 @@ export default function Navbar() {
       }`}
     >
       <div
-        className={`mx-auto max-w-4xl px-6 flex items-center justify-between rounded-2xl transition-all duration-500 ${
+        className={`mx-auto max-w-4xl px-4 sm:px-6 flex items-center justify-between rounded-2xl transition-all duration-500 ${
           scrolled ? "glass-card py-3 shadow-lg" : "py-0"
         }`}
         style={scrolled ? { border: "1px solid hsl(var(--primary) / 0.15)" } : {}}
@@ -33,7 +33,7 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#hero"
-          className="font-extrabold text-xl gradient-text"
+          className="font-extrabold text-xl gradient-text flex-shrink-0"
           style={{ fontFamily: "Syne, sans-serif" }}
         >
           Daniel.
