@@ -26,7 +26,7 @@ export default function InterestsSection() {
             My <span className="gradient-text">Interests</span>
           </h2>
           <p className="text-muted-foreground text-lg mt-4">
-            All the things that make me who I am (besides coding)
+            All the things that make up my interests
           </p>
         </div>
 
