@@ -3,7 +3,7 @@ const experiences = [
     emoji: "🤼",
     title: "Wrestling",
     role: "JV Athlete",
-    period: "2025 – Present",
+    period: "2025 - 2026 season",
     description:
       "Started wrestling this year and already locked in for varsity next season. It's one of the hardest things I've ever done — physically and mentally. The grind of practice every day has taught me more about discipline and pushing through discomfort than anything else in my life.",
     tags: ["Discipline", "Mental Toughness", "Grit", "Varsity Bound"],
@@ -13,7 +13,7 @@ const experiences = [
     emoji: "🏕️",
     title: "Hockessin PAL",
     role: "Counselor in Training",
-    period: "Summer 2024",
+    period: "Summer 2024-2025",
     description:
       "Spent my summer as a Counselor in Training at the Hockessin PAL. Worked with kids, helped run activities, and learned a lot about responsibility and leadership. One of those experiences that sounds simple but actually teaches you a ton.",
     tags: ["Leadership", "Volunteering", "Community", "Youth Work"],
