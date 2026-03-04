@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const roles = ["Student", "Creator", "Problem Solver", "Always Learning"];
+const roles = ["a Student", "a Creator", "a Problem Solver", "Always Learning"];
 
 export default function HeroSection() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -61,7 +61,7 @@ export default function HeroSection() {
           className="text-2xl md:text-4xl font-bold text-foreground mb-10 h-12 flex items-center justify-center gap-3 animate-fade-up"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
-          <span className="text-muted-foreground font-normal">I'm a</span>
+          <span className="text-muted-foreground font-normal">I'm </span>
           <span className="text-primary min-w-[300px] text-left">
             {displayed}
             <span className="cursor-blink text-primary ml-0.5">|</span>
