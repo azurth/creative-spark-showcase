@@ -4,7 +4,7 @@ const projects = [
     name: "Reminders Webpage",
     description: "A personal homework and task tracker I built and deployed as a live website. Actually use it day to day.",
     tech: ["HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "https://azurth.github.io/Homework/",
     color: "hsl(35 95% 55%)",
   },
   {
