@@ -2,14 +2,23 @@ const experiences = [
   {
     emoji: "🤼",
     title: "Wrestling",
-    role: "Varsity Athlete",
-    period: "2022 – Present",
+    role: "JV Athlete",
+    period: "2025 – Present",
     description:
-      "Competing at the varsity level, learning discipline, grit, and how to push through when things get tough. Wrestling has taught me more about mental toughness than anything else.",
-    tags: ["Discipline", "Teamwork", "Grit"],
+      "Started wrestling this year and already locked in for varsity next season. It's one of the hardest things I've ever done — physically and mentally. The grind of practice every day has taught me more about discipline and pushing through discomfort than anything else in my life.",
+    tags: ["Discipline", "Mental Toughness", "Grit", "Varsity Bound"],
     color: "hsl(35 95% 55%)",
   },
-  // Add more experiences below — copy the block above and update the fields!
+  {
+    emoji: "🏕️",
+    title: "Hockessin PAL",
+    role: "Counselor in Training",
+    period: "Summer 2024",
+    description:
+      "Spent my summer as a Counselor in Training at the Hockessin PAL. Worked with kids, helped run activities, and learned a lot about responsibility and leadership. One of those experiences that sounds simple but actually teaches you a ton.",
+    tags: ["Leadership", "Volunteering", "Community", "Youth Work"],
+    color: "hsl(200 80% 55%)",
+  },
 ];
 
 export default function ExperiencesSection() {
