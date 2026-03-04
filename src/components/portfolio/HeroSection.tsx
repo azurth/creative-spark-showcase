@@ -45,20 +45,20 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto w-full">
         <p className="text-primary font-medium tracking-widest uppercase text-sm mb-6 animate-fade-up" style={{ animationDelay: "0.1s", opacity: 0 }}>
           Hey there 👋 I'm
         </p>
 
         <h1
-          className="text-7xl md:text-9xl font-extrabold mb-6 leading-none animate-fade-up gradient-text"
+          className="text-6xl sm:text-7xl md:text-9xl font-extrabold mb-6 leading-none animate-fade-up gradient-text"
           style={{ animationDelay: "0.2s", opacity: 0 }}
         >
           Daniel
         </h1>
 
         <div
-          className="text-2xl md:text-4xl font-bold text-foreground mb-10 h-12 flex items-center justify-center gap-3 animate-fade-up"
+          className="text-xl sm:text-2xl md:text-4xl font-bold text-foreground mb-10 h-12 flex items-center justify-center gap-3 animate-fade-up"
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
           <span className="text-muted-foreground font-normal">I'm a</span>
@@ -69,7 +69,7 @@ export default function HeroSection() {
         </div>
 
         <p
-          className="text-muted-foreground text-lg max-w-xl mx-auto mb-12 animate-fade-up"
+          className="text-muted-foreground text-base sm:text-lg max-w-xl mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.6s", opacity: 0 }}
         >
           Always working on something, always learning something new, figuring things out one project at a time.
@@ -78,7 +78,7 @@ export default function HeroSection() {
         <div className="animate-fade-up" style={{ animationDelay: "0.8s", opacity: 0 }}>
           <a
             href="#projects"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl font-bold text-lg text-primary-foreground animate-pulse-glow transition-all duration-300 hover:scale-105 active:scale-95"
+            className="inline-flex items-center gap-3 px-6 sm:px-8 py-4 rounded-2xl font-bold text-base sm:text-lg text-primary-foreground animate-pulse-glow transition-all duration-300 hover:scale-105 active:scale-95"
             style={{ background: "var(--gradient-amber)" }}
           >
             See What I've Made
