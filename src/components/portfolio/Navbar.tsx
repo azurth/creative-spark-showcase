@@ -10,6 +10,7 @@ const links = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -29,6 +30,7 @@ export default function Navbar() {
         }`}
         style={scrolled ? { border: "1px solid hsl(var(--primary) / 0.15)" } : {}}
       >
+        {/* Logo */}
         <a
           href="#hero"
           className="font-extrabold text-xl gradient-text"
@@ -37,7 +39,8 @@ export default function Navbar() {
           Daniel.
         </a>
 
-        <div className="flex items-center gap-1">
+        {/* Desktop links */}
+        <div className="hidden md:flex items-center gap-1">
           {links.map((link) => (
             <a
               key={link.label}
@@ -48,7 +51,44 @@ export default function Navbar() {
             </a>
           ))}
         </div>
+
+        {/* Mobile hamburger */}
+        <button
+          className="md:hidden flex flex-col gap-1.5 p-2 rounded-xl hover:bg-primary/10 transition-all"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span
+            className={`block w-5 h-0.5 bg-foreground transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
+          />
+          <span
+            className={`block w-5 h-0.5 bg-foreground transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
+          />
+          <span
+            className={`block w-5 h-0.5 bg-foreground transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+          />
+        </button>
       </div>
+
+      {/* Mobile dropdown menu */}
+      {menuOpen && (
+        <div
+          className="md:hidden mx-4 mt-2 rounded-2xl glass-card overflow-hidden"
+          style={{ border: "1px solid hsl(var(--primary) / 0.2)" }}
+        >
+          {links.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              onClick={() => setMenuOpen(false)}
+              className="block px-6 py-4 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-200 border-b last:border-b-0"
+              style={{ borderColor: "hsl(var(--border))" }}
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )}
     </nav>
   );
 }
