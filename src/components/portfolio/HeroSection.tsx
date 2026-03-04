@@ -62,7 +62,7 @@ export default function HeroSection() {
           style={{ animationDelay: "0.4s", opacity: 0 }}
         >
           <span className="text-muted-foreground font-normal">I'm a</span>
-          <span className="text-primary min-w-[0px] text-center">
+          <span className="text-primary min-w-0 text-center">
             {displayed}
             <span className="cursor-blink text-primary ml-0.5">|</span>
           </span>
