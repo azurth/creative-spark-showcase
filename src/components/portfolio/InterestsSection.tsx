@@ -6,6 +6,7 @@ const interests = [
   { emoji: "🎨", label: "Designing", desc: "Can't leave something ugly alone", color: "hsl(340 80% 60%)" },
   { emoji: "🌌", label: "Random Projects", desc: "One idea always leads to another", color: "hsl(220 70% 60%)" },
   { emoji: "🏋️", label: "Gym", desc: "Great habit, going strong", color: "hsl(30 60% 45%)" },
+  { emoji: "📷", label: "Photography", desc: "Used to shoot a lot, still appreciate it", color: "hsl(210 60% 55%)" }
 ];
 
 export default function InterestsSection() {
