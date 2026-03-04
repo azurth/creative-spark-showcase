@@ -57,7 +57,6 @@ export default function AboutSection() {
             </div>
           </div>
         </div>
-        </div>
 
         {/* Skills */}
         <div className="mt-12 glass-card rounded-3xl p-8" style={{ border: "1px solid hsl(var(--primary) / 0.2)" }}>
@@ -104,6 +103,7 @@ export default function AboutSection() {
             ))}
           </div>
         </div>
+
       </div>
     </section>
   );
