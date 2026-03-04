@@ -12,7 +12,7 @@ const projects = [
     name: "Portfolio Website",
     description: "Designed and deployed my own portfolio site. I actively update this.",
     tech: ["React", "Tailwind", "Netlify", "GitHub"],
-    link: "#",
+    link: "https://dlennyportfolio.netlify.app/",
     color: "hsl(25 90% 50%)",
   }
 ];
