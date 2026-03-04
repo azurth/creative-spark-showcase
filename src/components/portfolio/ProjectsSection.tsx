@@ -10,11 +10,11 @@ const projects = [
   {
     emoji: "🌐",
     name: "Portfolio Website",
-    description: "Designed and deployed my own portfolio site. I update this actively.",
-    tech: ["React", "Tailwind", "Netlify", "GitHub"],
-    link: "You're on it",
+    description: "Designed and deployed my own portfolio site. I actively update this.",
+    tech: ["React", "Tailwind", "Netlify", "GitHub"]
+    link: "#",
     color: "hsl(25 90% 50%)",
-  },
+  }
 ];
 
 export default function ProjectsSection() {
