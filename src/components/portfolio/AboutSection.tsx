@@ -78,11 +78,6 @@ export default function AboutSection() {
               { emoji: "⚡", label: "Works Under Pressure", desc: "Clutch when it counts" },
               { emoji: "💡", label: "Idea Creation", desc: "Always got something brewing" },
               { emoji: "🤖", label: "AI Tools", desc: "Building smarter with AI" },
-              { emoji: "🗣️", label: "Communication", desc: "Clear and direct" },
-              { emoji: "🤝", label: "Teamwork", desc: "Better together" },
-              { emoji: "💪", label: "Work Ethic", desc: "Show up and get it done" },
-              { emoji: "📖", label: "Fast Learner", desc: "Pick things up quickly" },
-              { emoji: "🎯", label: "Coachable", desc: "Always open to feedback" },
             ].map((skill) => (
               <div
                 key={skill.label}
