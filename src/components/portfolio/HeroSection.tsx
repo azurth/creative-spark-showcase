@@ -72,7 +72,7 @@ export default function HeroSection() {
           className="text-muted-foreground text-lg max-w-xl mx-auto mb-12 animate-fade-up"
           style={{ animationDelay: "0.6s", opacity: 0 }}
         >
-          I build random stuff that I think is cool. Sometimes it works. Always learning something new.
+          Always working on something, always learning something new, figuring things out one project at a time.
         </p>
 
         <div className="animate-fade-up" style={{ animationDelay: "0.8s", opacity: 0 }}>
