@@ -3,7 +3,7 @@ const projects = [
     emoji: "📝",
     name: "Reminders Webpage",
     description: "A personal homework and task tracker I built and deployed as a live website. Actually use it day to day.",
-    tech: ["HTML", "CSS", "JavaScript"]
+    tech: ["HTML", "CSS", "JavaScript"],
     link: "#",
     color: "hsl(35 95% 55%)",
   },
@@ -11,7 +11,7 @@ const projects = [
     emoji: "🌐",
     name: "Portfolio Website",
     description: "Designed and deployed my own portfolio site. I actively update this.",
-    tech: ["React", "Tailwind", "Netlify", "GitHub"]
+    tech: ["React", "Tailwind", "Netlify", "GitHub"],
     link: "#",
     color: "hsl(25 90% 50%)",
   }
