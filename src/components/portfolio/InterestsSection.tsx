@@ -62,9 +62,8 @@ export default function InterestsSection() {
         {/* Fun quote */}
         <div className="mt-16 glass-card rounded-3xl p-8 text-center" style={{ border: "1px solid hsl(var(--primary) / 0.2)" }}>
           <p className="text-2xl font-bold text-foreground">
-            "The best way to learn is to{" "}
-            <span className="gradient-text">build something</span>{" "}
-            you're actually interested in." 🚀
+            "You learn more from one bad project than{" "}
+            <span className="gradient-text">ten good ideas you never tried.</span>"
           </p>
           <p className="text-muted-foreground mt-3 text-sm">— Daniel</p>
         </div>
