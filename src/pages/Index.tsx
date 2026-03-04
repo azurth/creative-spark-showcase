@@ -4,6 +4,8 @@ import AboutSection from "@/components/portfolio/AboutSection";
 import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import InterestsSection from "@/components/portfolio/InterestsSection";
 import ContactSection from "@/components/portfolio/ContactSection";
+import ExperiencesSection from "@/components/portfolio/ExperiencesSection";
+
 
 const Index = () => {
   return (
