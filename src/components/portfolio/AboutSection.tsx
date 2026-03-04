@@ -72,14 +72,17 @@ export default function AboutSection() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {[
+              { emoji: "🧩", label: "Problem Solving", desc: "Finding ways to make it work" },
               { emoji: "🎨", label: "UI Design", desc: "Making things look good" },
-              { emoji: "🤖", label: "AI Tools", desc: "Building with AI assistance" },
-              { emoji: "🌐", label: "Web Projects", desc: "HTML, CSS, JavaScript" },
-              { emoji: "⚡", label: "React", desc: "For bigger projects" },
-              { emoji: "🖌️", label: "Figma", desc: "Design & wireframing" },
-              { emoji: "🚀", label: "Netlify", desc: "Deploying live sites" },
-              { emoji: "📦", label: "GitHub", desc: "Version control" },
-              { emoji: "💡", label: "Ideation", desc: "Always got something brewing" },
+              { emoji: "👥", label: "Leadership", desc: "Learned on the mat & beyond" },
+              { emoji: "⚡", label: "Works Under Pressure", desc: "Clutch when it counts" },
+              { emoji: "💡", label: "Idea Creation", desc: "Always got something brewing" },
+              { emoji: "🤖", label: "AI Tools", desc: "Building smarter with AI" },
+              { emoji: "🗣️", label: "Communication", desc: "Clear and direct" },
+              { emoji: "🤝", label: "Teamwork", desc: "Better together" },
+              { emoji: "💪", label: "Work Ethic", desc: "Show up and get it done" },
+              { emoji: "📖", label: "Fast Learner", desc: "Pick things up quickly" },
+              { emoji: "🎯", label: "Coachable", desc: "Always open to feedback" },
             ].map((skill) => (
               <div
                 key={skill.label}
