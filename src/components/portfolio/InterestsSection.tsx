@@ -64,9 +64,9 @@ export default function InterestsSection() {
           <p className="text-2xl font-bold text-foreground">
             "The best way to learn is to{" "}
             <span className="gradient-text">build something</span>{" "}
-            you actually care about." 🚀
+            you're actually interested in." 🚀
           </p>
-          <p className="text-muted-foreground mt-3 text-sm">— probably someone smart, but also me now</p>
+          <p className="text-muted-foreground mt-3 text-sm">— Daniel</p>
         </div>
       </div>
     </section>
