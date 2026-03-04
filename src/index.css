@@ -70,6 +70,7 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
@@ -156,4 +157,3 @@
 .cursor-blink {
   animation: blink 1s step-end infinite;
 }
-
