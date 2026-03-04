@@ -33,7 +33,7 @@ export default function Navbar() {
           className="font-extrabold text-xl gradient-text"
           style={{ fontFamily: "Syne, sans-serif" }}
         >
-          Alex.
+          Daniel.
         </a>
 
         <div className="flex items-center gap-1">
